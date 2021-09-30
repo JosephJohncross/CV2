@@ -39,7 +39,7 @@
     --bg: #fff;
 
     --width: 100%;
-} 
+}
 
 *{
     padding: 0;
@@ -80,7 +80,7 @@ p{
     height: 100%;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 2.5fr 10fr 0.8fr;
-    grid-template-areas: 
+    grid-template-areas:
     "aside head"
     "aside main"
     "footer footer";
@@ -260,7 +260,19 @@ img{
     display: flex;
     align-items: center;
 }
+.footer{
+    grid-area: footer;
+    color: var(--first-color);
+    text-align: center;
+    margin-top: var(--mb-2-0);
+}
+.footer p{
+    font-size: 1.3rem;
+}
+.footer span{
+    margin-left: .4rem;
+}
 
 
 
-    
+
